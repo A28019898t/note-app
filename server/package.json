@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "18.15.0",
+  "description": "",
   "main": "server.mjs",
   "type": "module",
   "scripts": {
@@ -28,5 +28,8 @@
     "moment": "^2.29.4",
     "mongoose": "^7.0.2",
     "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": "14.17.5"
   }
 }
