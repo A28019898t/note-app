@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon --experimental-modules server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "@graphql-tools/schema": "^9.0.17",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.12.0",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.2",
+    "ws": "^8.13.0"
+  }
+}
