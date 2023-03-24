@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "v18.15.0",
+  "description": "18.15.0",
   "main": "server.mjs",
   "type": "module",
   "scripts": {
